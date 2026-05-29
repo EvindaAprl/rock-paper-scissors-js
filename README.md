@@ -5,7 +5,7 @@ This is my third project from the **Foundations Course** at [The Odin Project](h
 ## 🎯 Objectives
 
 - Implement conditional logic, loops, and custom JavaScript functions.
-- Handle user input securely using case-insensitive validation techniques.
+- Connect HTML and JavaScript with DOM Manipulation.
 - Practice incremental development and debugging via the browser console.
 - Apply algorithmic thinking to automate a computer opponent's choices.
 - Announce the final winner once either the player or computer reaches 5 points.
@@ -13,15 +13,15 @@ This is my third project from the **Foundations Course** at [The Odin Project](h
 ## 🛠️ Tech Stack
 
 - **HTML5**
+- **CSS3**
 - **JavaScript (ES6+)**
 - **Git & GitHub**
 
 ## 🎮 How to Play
 
-1. Open the `index.html` file in your preferred modern web browser.
-2. Input your choices in the pop-up windows to compete against the computer.
-3. Launch the **Developer Tools** (`F12` or `Ctrl+Shift+I` / `Cmd+Option+I` on Mac).
-4. Switch to the **Console** tab to view the live game tracking and score updates.
+1. Make your selection using the three icons on the screen to play against the computer.
+2. The screen will display the score and the results of each round.
+3. The winner will be announced when one of the players reaches **5 points**.
 
 ---
 

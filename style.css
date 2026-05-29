@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #283060;
+  font-family: 'Space Mono', monospace;
+  color: white;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.title h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.middle-text h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.circle-btn {
+  width: 170px;
+  height: 170px;
+  border-radius: 100%;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: 0.2s ease;
+}
+
+.circle-btn:hover {
+  transform: scale(1.05);
+}
+
+.circle-btn img {
+  width: 170px;
+  height: 170px;
+  border-radius: 100%;
+  object-fit: contain;
+}
+
+.circle-btn p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.score-container {
+  display: flex;
+  gap: 50px;
+}
+
+.score-box {
+  width: 170px;
+  height: 60px;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+
+.score-box h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.score-box p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.last-text h2 {
+  font-size: 30px;
+  font-weight: 700;
+}

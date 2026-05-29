@@ -23,7 +23,8 @@ function playGame() {
   let computerScore = 0;
 
   function playRound(humanChoice, computerChoice) {
-    humanChoice = humanChoice.toLowerCase();
+    if (humanScore === 5 || computerScore === 5) return;
+    // humanChoice = humanChoice.toLowerCase();
 
     if (humanChoice === computerChoice) {
       console.log(`Draw! Both chose ${humanChoice}`);
@@ -41,14 +42,14 @@ function playGame() {
     console.log(`Score => You: ${humanScore}, Computer: ${computerScore}`);
   }
 
-  for (let i = 1; i <= 5; i++) {
-    console.log(`--- Round ${i} ---`);
+  // for (let i = 1; i <= 5; i++) {
+  //   console.log(`--- Round ${i} ---`);
 
-    const humanSelection = getHumanChoice();
-    const computerSelection = getComputerChoice();
+  //   const humanSelection = getHumanChoice();
+  //   const computerSelection = getComputerChoice();
 
-    playRound(humanSelection, computerSelection);
-  }
+  //   playRound(humanSelection, computerSelection);
+  // }
 
   console.log("=== FINAL RESULT ===");
 
