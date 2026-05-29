@@ -19,9 +19,9 @@ This is my third project from the **Foundations Course** at [The Odin Project](h
 ## 🎮 How to Play
 
 1. Open the `index.html` file in your preferred modern web browser.
-2. Launch the **Developer Tools** (`F12` or `Ctrl+Shift+I` / `Cmd+Option+I` on Mac).
-3. Switch to the **Console** tab to view the live game tracking and score updates.
-4. Input your choices in the pop-up windows to compete against the computer.
+2. Input your choices in the pop-up windows to compete against the computer.
+3. Launch the **Developer Tools** (`F12` or `Ctrl+Shift+I` / `Cmd+Option+I` on Mac).
+4. Switch to the **Console** tab to view the live game tracking and score updates.
 
 ---
 
