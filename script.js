@@ -6,13 +6,13 @@ function getComputerChoice() {
 function playGame() {
   let humanScore = 0;
   let computerScore = 0;
-  
+
   const humanScoreText = document.querySelector(".score-box:nth-child(1) p");
   const computerScoreText = document.querySelector(".score-box:nth-child(2) p");
+  const resultText = document.querySelector(".result-text h2");
 
   function playRound(humanChoice, computerChoice) {
     if (humanScore === 5 || computerScore === 5) return;
-    
 
     if (humanChoice === computerChoice) {
       console.log(`Draw! Both chose ${humanChoice}`);
@@ -42,7 +42,7 @@ function playGame() {
       resultText.textContent = "Congratulations! You win the game!";
     } else if (computerScore === 5) {
       console.log("Computer wins the game!");
-      
+
       resultText.textContent = "Computer wins the game! Better luck next time!";
     }
   }
